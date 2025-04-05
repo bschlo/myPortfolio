@@ -17,6 +17,11 @@
     gap: 50px;
 }
 
+.nav-left-container a {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-right-container {
     display: flex;
     flex-direction: row;
@@ -25,6 +30,33 @@
     justify-content: center;
 }
 
-.linkedin a {
+.nav-right-container a {
     cursor: pointer;
+    color: white;
 }
+
+
+.nav-main a {
+    position: relative; 
+    color: white;
+    text-decoration: none;
+    padding-bottom: 4px; 
+  }
+  
+  .nav-main a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; 
+    height: 2px; 
+    background-color: white;
+    transition: width 0.3s ease; 
+  }
+  
+  .nav-main a:hover::after {
+    width: 100%; 
+  }
+
+
+
