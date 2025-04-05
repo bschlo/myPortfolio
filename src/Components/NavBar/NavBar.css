@@ -4,11 +4,10 @@
     justify-content: center;
     gap: 1000px;
     align-items: center;
-    height: 50px;
-    background-color: white;
-    color: black;
+    height: 70px;
+    background-color: rgb(6, 17, 78);
+    color: white;
     font-size: 20px;
-    margin-top: 20px;
     position: sticky;
 }
 
@@ -21,20 +20,9 @@
 .nav-right-container {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
-}
-
-.github img {
-    width: 120px;
-    height: 60px;
-    margin-top: 7px;
-}
-
-.linkedin img {
-    width: 200px;
-    height: 50px;
-    margin-top: 7px;
+    justify-content: center;
 }
 
 .linkedin a {

@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
+import { FaLinkedin } from "react-icons/fa6";
+import { IoLogoGithub } from "react-icons/io";
+import { MdOutlineMailOutline } from "react-icons/md";
+
+
+
 
 const NavBar = () => {
   return (
@@ -15,10 +21,9 @@ const NavBar = () => {
           href="https://github.com/bschlo"
           target="_blank"
           rel="noopener noreferrer"
+          className="github"
         >
-          <div className="github">
-            <img src="./download-2.png" alt="GitHub" />
-          </div>
+          <IoLogoGithub size={50} color="white"/>
         </a>
         <a
           href="https://www.linkedin.com/in/benjamin-schloss/"
@@ -26,7 +31,10 @@ const NavBar = () => {
           rel="noopener noreferrer"
           className="linkedin"
         >
-          <img src="./LinkedIn_Logo_2013.svg.png" alt="LinkedIn" />
+          <FaLinkedin size={50} color="white" />
+        </a>
+        <a href="mailto:benschloss2@gmail.com"className="mail">
+        <MdOutlineMailOutline size={50} color="white"/>
         </a>
       </div>
     </div>
