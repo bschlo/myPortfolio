@@ -9,6 +9,9 @@ const NavBar = () => {
   return (
     <div className="nav-main">
       <div className="nav-left-container">
+      <a href="#home" className="nav-left">
+          Home
+        </a>
         <a href="#portfolio" className="nav-left">
           Portfolio
         </a>

@@ -1,0 +1,41 @@
+
+.home-main {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 0px 0px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.home-intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.home-intro {
+    font-size: 40px;
+    width: 600px;
+}
+
+.me-img {
+    width: 300px;
+    border-radius: 40px;
+}
+
+.stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.stack img {
+    width: 80px;    /* Fixed width */
+    height: 80px;   /* Fixed height */
+    object-fit: cover; /* Ensures images fill the container without stretching */
+    border-radius: 8px; /* Optional, for rounded corners */
+  }
