@@ -13,7 +13,18 @@
     justify-content: center;
     align-items: center;
     gap: 250px;
-}
+  
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in forwards;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
 
 .home-intro {
     font-size: 40px;

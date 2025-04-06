@@ -4,10 +4,7 @@ import { FaReact } from "react-icons/fa";
 
 
 const Home = () => {
-  const slides = [
-    { text: "I'm Ben Schloss. I am software developer from New York" },
-    { text: "My software engineering began at General Assembly. " },
-  ];
+
   return (
     <div className="home-main">
       <div className="home-intro-container">
