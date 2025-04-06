@@ -1,28 +1,38 @@
-import React from 'react'
-import './Home.css'
-
+import React from "react";
+import "./Home.css";
+import { FaReact } from "react-icons/fa";
 
 
 const Home = () => {
+  const slides = [
+    { text: "I'm Ben Schloss. I am software developer from New York" },
+    { text: "My software engineering began at General Assembly. " },
+  ];
   return (
-    <div className='home-main'>
-        <div className='home-intro-container'>
-        <div className='home-intro'> I'm Ben. I am software engineer from New York.</div>
-        <img src="./face.jpg" className='me-img' />
+    <div className="home-main">
+      <div className="home-intro-container">
+        <div className="home-intro">
+          I'm Ben Schloss. I am software engineer from New York.
         </div>
-        <div className='stack'>
-            <img src='./javascript.png'/>
-            <img src='./python.png'/>
-            <img src='./react.png'/>
-            <img src='./node.png'/>
-            <img src='./django.png'/>
-            <img src='./html.png'/>
-            <img src='./css.png'/> 
-            <img src='./psql.png'/>
-            <img src='./mongo.png'/>
+        <img src="./face.jpg" className="me-img" />
+      </div>
+      <div className="stack">
+        <img src="./javascript.png" />
+        <img src="./python.png" />
+        <FaReact size={70} color="#61dbfb"/>
+        <img src="./node.png" />
+        <div className="django">
+          <img src="./django.svg" />
         </div>
+        <img src="./html.png" />
+        <img src="./css.png" />
+        <div className="databases">
+          <img src="./psql.png" />
+          <img src="./mongo.png" />
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

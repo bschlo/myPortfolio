@@ -4,7 +4,7 @@
     flex-direction: column;
     margin: 100px 0px 0px 0px;
     justify-content: center;
-    gap: 40px;
+    gap: 70px;
 }
 
 .home-intro-container {
@@ -34,8 +34,25 @@
 }
 
 .stack img {
-    width: 80px;    /* Fixed width */
-    height: 80px;   /* Fixed height */
-    object-fit: cover; /* Ensures images fill the container without stretching */
-    border-radius: 8px; /* Optional, for rounded corners */
-  }
+    width: 80px;    
+    height: 80px;   
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.databases {
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    align-items: center;
+}
+
+.databases img {
+    width: 120px;
+    height: 120px;
+}
+
+.django img{
+    width: 120px;
+}
+
