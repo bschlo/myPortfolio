@@ -1,3 +1,86 @@
 .portfolio-main {
-    margin: 100px 0px 0px 0px;
+    margin: 100px 0px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 50px;
+}
+
+.portfolio-header {
+    font-size: 40px;
+}
+
+.slide-container {
+    width: 1000px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .slide {
+    position: relative;
+    width: 100%;
+    
+  }
+  
+  .slide-image {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .slide-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+ 
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+
+  .slide:hover .slide-text {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .portfolio-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px; 
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+.slide-controls:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    color: rgba(34, 33, 33, 0.483);
+}
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    width: 100%;
+}
+.portfolio-title {
+    font-size: 30px;
+    font-weight: bold;
 }
