@@ -1,21 +1,27 @@
 .about-main {
-    margin: 100px 200px 150px 100px;
+    margin: 5rem 5vw 7rem;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    gap: 30px;
-}
-.about-header {
-    font-size: 40px;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  .about-header {
+    font-size: 2.5rem;
     font-weight: bold;
-}
-.about-content-container {
+  }
+  
+  .about-content-container {
     display: flex;
-    align-items: left;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
-    margin-left: 30px;
-}
-.about-content {
-    font-size: 25px;
-    line-height: 1.5;
-}
+    margin-left: 2rem;
+  }
+  
+  .about-content {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 100%;
+  }
+  

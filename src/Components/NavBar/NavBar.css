@@ -1,44 +1,43 @@
 .nav-main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 1000px;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 5vw;
     height: 70px;
     background-color: rgb(6, 17, 78);
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
     position: sticky;
     top: 0;
     z-index: 1000;
-}
-
-.nav-left-container {
+  }
+  
+  .nav-left-container {
     display: flex;
     flex-direction: row;
-    gap: 50px;
-}
-
-.nav-left-container a {
+    gap: 2rem;
+  }
+  
+  .nav-left-container a {
     text-decoration: none;
     color: white;
-}
-
-.nav-right-container {
+  }
+  
+  .nav-right-container {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 1.5rem;
     align-items: center;
     justify-content: center;
-}
-
-.nav-right-container a {
+  }
+  
+  .nav-right-container a {
     cursor: pointer;
     color: white;
-}
-
-
-.nav-main a {
+  }
+  
+  .nav-main a {
     position: relative; 
     color: white;
     text-decoration: none;
@@ -59,6 +58,4 @@
   .nav-main a:hover::after {
     width: 100%; 
   }
-
-
-
+  
