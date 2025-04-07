@@ -21,10 +21,6 @@ html, body {
   width: 100%;
   background-color: rgb(244, 233, 218);
   scroll-behavior: smooth;
-  transform: scale(0.75);
-  transform-origin: left;
-  width: 133.33vw; /* Compensates for the 0.75 scale */
-  overflow-x: hidden;
 }
 
 #root {
