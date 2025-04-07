@@ -8,6 +8,7 @@
 
 .portfolio-header {
     font-size: 40px;
+    font-weight: bold;
 }
 
 .slide-container {
@@ -83,4 +84,12 @@
 .portfolio-title {
     font-size: 30px;
     font-weight: bold;
+}
+
+.portfolio-line-break {
+    border-bottom: 2px solid black;
+    width: 85%;
+    margin-right: 100px;
+    margin-top: 50px;
+    align-self: center;
 }

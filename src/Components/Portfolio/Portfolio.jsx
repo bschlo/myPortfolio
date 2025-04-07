@@ -63,6 +63,7 @@ const Portfolio = () => {
         />
         </div>
       </div>
+      <div className="portfolio-line-break"></div>
     </div>
   );
 };

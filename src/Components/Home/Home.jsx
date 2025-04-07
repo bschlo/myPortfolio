@@ -28,7 +28,7 @@ const Home = () => {
           <img src="./mongo.png" />
         </div>
       </div>
-      <div className="line-break"> </div>
+      <div className="home-line-break"> </div>
     </div>
   );
 };

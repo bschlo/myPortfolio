@@ -6,6 +6,7 @@ import Footer from "./Components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 import About from "./Components/About/About";
 import Home from "./Components/Home/Home";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <div id="home"><Home /></div>
         <div id="portfolio"><Portfolio /></div>
         <div id="about"><About /></div>
+        <div id="contact"><Contact /></div>
       </div>
       <Footer />
     </>

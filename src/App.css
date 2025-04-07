@@ -10,10 +10,23 @@ html, body {
   height: 100%;       
   width: 100%;
   background-color: rgb(244, 233, 218);
+  scroll-behavior: smooth;
 }
 
 #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+#home {
+  scroll-margin-top: 200px;
+}
+
+#portfolio {
+  scroll-margin-top: 175px;
+}
+
+#about {
+  scroll-margin-top: 175px;
 }
