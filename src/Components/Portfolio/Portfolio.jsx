@@ -38,7 +38,7 @@ const Portfolio = () => {
           <MdNavigateBefore
             onClick={previousSlide}
             className="slide-controls"
-            size={100}
+            size={80}
           />
           <div className="slide-container">
             <a
@@ -59,7 +59,7 @@ const Portfolio = () => {
           <MdNavigateNext
           onClick={nextSlide}
           className="slide-controls"
-          size={100}
+          size={80}
         />
         </div>
       </div>
