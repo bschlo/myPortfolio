@@ -29,7 +29,7 @@ const NavBar = () => {
           rel="noopener noreferrer"
           className="github"
         >
-          <IoLogoGithub size={50} color="white" />
+          <IoLogoGithub size={40} color="white" />
         </a>
         <a
           href="https://www.linkedin.com/in/benjamin-schloss/"
@@ -37,10 +37,10 @@ const NavBar = () => {
           rel="noopener noreferrer"
           className="linkedin"
         >
-          <FaLinkedin size={50} color="white" />
+          <FaLinkedin size={40} color="white" />
         </a>
         <a href="mailto:benschloss2@gmail.com" className="mail">
-          <MdOutlineMailOutline size={50} color="white" />
+          <MdOutlineMailOutline size={40} color="white" />
         </a>
       </div>
     </div>

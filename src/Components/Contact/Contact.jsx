@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="contact-header">Contact Me</div>
       <div className="contact-icons">
         <a href="mailto:benschloss2@gmail.com" className="contact-mail">
-          <MdOutlineMailOutline size={80} color="red" />
+          <MdOutlineMailOutline size={60} color="red" />
         </a>
         <a
           href="https://www.linkedin.com/in/benjamin-schloss/"
@@ -18,7 +18,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="contact-linkedin"
         >
-          <FaLinkedin size={80} color="blue" />
+          <FaLinkedin size={60} color="blue" />
         </a>
         <a
           href="https://github.com/bschlo"
@@ -26,7 +26,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           className="contact-github"
         >
-          <IoLogoGithub size={80} color="black" />
+          <IoLogoGithub size={60} color="black" />
         </a>
       </div>
     </div>
