@@ -58,4 +58,34 @@
   .nav-main a:hover::after {
     width: 100%; 
   }
+  @media (max-width: 768px) {
+    .nav-main {
+      flex-direction: column;
+      padding: 0 3vw; 
+      height: auto;
+    }
   
+    .nav-left-container, .nav-right-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem; 
+    }
+  
+    .nav-main a {
+      font-size: 0.9rem;
+    }
+  }
+  
+  
+  
+  
+  @media (max-width: 480px) {
+    .nav-main {
+      font-size: 0.8rem; 
+    }
+  
+    .nav-left-container, .nav-right-container {
+      gap: 0.5rem; 
+    }
+  }
