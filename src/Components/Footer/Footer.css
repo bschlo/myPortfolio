@@ -1,5 +1,6 @@
 .footer { 
     color: white;
+    
 }
 .footer-container {
     display: flex;
@@ -7,5 +8,5 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: #000000;
+    background-color: rgb(6, 17, 78);
 }

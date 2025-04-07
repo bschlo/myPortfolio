@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Benne&family=Gabarito:wght@400..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Tai+Heritage+Pro:wght@400;700&display=swap');
 .main {
-  font-family: "Raleway", sans-serif;
   flex: 1;
+  
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 html, body {
+  font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
   height: 100%;       
